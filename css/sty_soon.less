@@ -1,0 +1,48 @@
+//FONTFACE STY
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url('fonts/Pacifico-webfont.eot');
+    src: url('fonts/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Pacifico-webfont.woff') format('woff'),
+         url('fonts/Pacifico-webfont.ttf') format('truetype'),
+         url('fonts/Pacifico-webfont.svg#PacificoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}//VARIABLES
+@bgcolor:#edeee4;
+@secondcolor:#33cc99;
+@textcolor:#000000;
+@fontall:'PacificoRegular';
+@fontnormal:Arial, Sans-Serif, 'MS Trebuchet';
+//BASIC STY
+.basicsty{
+	font-family:@fontall !important;
+	background-color:@bgcolor !important;
+	color:@textcolor;
+}
+.borders{
+	border-radius:0px !important;
+	-moz-border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+}
+body{
+	.basicsty();
+}
+form{
+	input{
+		.borders();
+		height:30px;
+	}
+	.email{
+		width:40% !important;
+	}
+	.button{
+		font-family:@fontall;
+		width:20%;
+		background-color:@secondcolor;
+		color:#fff;
+		border:none;
+		font-size:18px;
+	}
+}
