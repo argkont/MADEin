@@ -34,7 +34,7 @@
 							
 								<div class="span6 offset4">
 									
-									<input type="email" value="" name="EMAIL" class="required email pull-left" id="mce-EMAIL" placeholder="Ingresa tu mail aqui por favor">
+									<input type="email" value="" name="EMAIL" class="required email pull-left" id="mce-EMAIL" placeholder="Ingresa tu mail aqui">
 							
 									<input type="submit" value="Cuentame!" name="subscribe" id="mc-embedded-subscribe" class="button pull-left">
 								
