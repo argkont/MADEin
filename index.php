@@ -27,7 +27,10 @@
 					
 				</div>
 				<div class="container">
-					<div class="row-fluid"> 
+					
+				<div class="row-fluid">
+				
+				<div class="row-fluid"> 
 				<!-- Begin MailChimp Signup Form -->
 					<form action="http://adnetwork.us7.list-manage2.com/subscribe/post?u=c804ae5d6693b8b1cbadf6dcb&amp;id=1978f51f39" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					
